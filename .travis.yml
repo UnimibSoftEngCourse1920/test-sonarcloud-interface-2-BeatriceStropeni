@@ -1,11 +1,10 @@
-language: csharp
 dist: trusty
-
+language: csharp
 addons:
   sonarcloud:
     organization: "unimibsoftengcourse1920"
     token:
-      secure: SONAR_TOKEN # encrypted value of your token
+      secure: eb34f31f411e148ae3508b0c039fe7aa96914af5 # encrypted value of your token
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
